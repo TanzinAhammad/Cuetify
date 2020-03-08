@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1024864391605",
+    "firebase_url": "https://cuetify4.firebaseio.com",
+    "project_id": "cuetify4",
+    "storage_bucket": "cuetify4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024864391605:android:00d69ac1095f4f278ac9fc",
+        "android_client_info": {
+          "package_name": "com.example.cuetify4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024864391605-5sq7qac9unhms464qs4jgolprtpokrp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cuetify4",
+            "certificate_hash": "f4cdbc2dd9ed60d6dd882037a71b6c75832c227b"
+          }
+        },
+        {
+          "client_id": "1024864391605-biuigl7r5v6nkju8q53if0fi6foqdtth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnrIEjT7E4gQprKY4LgGkuUyrg6Xgdr5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024864391605-biuigl7r5v6nkju8q53if0fi6foqdtth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

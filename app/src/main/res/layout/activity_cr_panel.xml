@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrPanel">
+
+
+    <Button
+        android:id="@+id/myProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#FF179917"
+        android:text="My Profile"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/allFaculties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#FF179917"
+        android:text="All Faculties"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/allStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#FF179917"
+        android:text="All Students"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/allCrs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#FF179917"
+        android:text="All Crs"
+        android:textColor="@color/white" />
+
+</LinearLayout>

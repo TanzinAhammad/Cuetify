@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Registration as"
+            android:textAlignment="center"
+            android:textColor="#B31AB3"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/registrationPanelFaculty"
+            android:text="@string/faculty"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFA7D84C" />
+
+        <Button
+            android:id="@+id/registrationPanelStudent"
+            android:text="@string/student"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFA7D84C" />
+
+        <Button
+            android:id="@+id/registrationPanelCr"
+            android:text="@string/cr"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFA7D84C" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyRegistration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:text="Faculty"
+                android:textAlignment="center"
+                android:textColor="#B31AB3"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Registration Panel"
+                android:textAlignment="center"
+                android:textColor="#B31AB3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageButton
+                android:id="@+id/facultyImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="110dp"
+                app:srcCompat="@android:drawable/ic_input_add"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add profile picture here"
+                android:layout_marginLeft="112sp" />
+
+            <EditText
+                android:id="@+id/facultyRegistrationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Name" />
+            <EditText
+                android:id="@+id/facultyRegistrationId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your ID" />
+
+            <EditText
+                android:id="@+id/facultyRegistrationEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Email" />
+
+            <EditText
+                android:id="@+id/facultyRegistrationPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Password" />
+
+            <EditText
+                android:id="@+id/facultyRegistrationPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Phone" />
+
+            <TextView
+                android:textColor="#FFB31AB3"
+                android:layout_marginLeft="57dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Date of Birth"/>
+
+
+
+            <LinearLayout
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/facultyDateDD"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="dd"/>
+                <EditText
+                    android:id="@+id/facultyDateMM"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="mm"/>
+                <EditText
+                    android:id="@+id/facultyDateYY"
+                    android:layout_marginRight="70dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="yy"/>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Give these Information"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="58sp"
+                android:textColor="#FFB31AB3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:text="Department"
+                android:textSize="15sp"/>
+            <Spinner
+                android:id="@+id/facultySpinnerDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="206dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="1"
+                    android:text="Designation"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Spinner
+                    android:id="@+id/facultySpinnerDesignation"
+                    android:layout_width="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/facultySubmitButton"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#FF179917"
+                android:text="Submit"
+                android:layout_marginTop="55dp"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentRegistration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:text="Student"
+                android:textAlignment="center"
+                android:textColor="#B31AB3"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Registration Panel"
+                android:textAlignment="center"
+                android:textColor="#B31AB3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/studentImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="110dp"
+                app:srcCompat="@android:drawable/ic_input_add"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add profile picture here"
+                android:layout_marginLeft="112sp" />
+
+            <EditText
+                android:id="@+id/studentRegistrationName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Name" />
+
+            <EditText
+                android:id="@+id/studentRegistrationId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your ID" />
+
+            <EditText
+                android:id="@+id/studentRegistrationEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Email" />
+
+            <EditText
+                android:id="@+id/studentRegistrationPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Password" />
+
+            <EditText
+                android:id="@+id/studentRegistrationPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:hint="Enter your Phone" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="#FFB31AB3"
+                android:layout_marginLeft="57dp"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your Date of Birth"/>
+
+
+
+            <LinearLayout
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/dateDD"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="dd"/>
+                <EditText
+                    android:id="@+id/dateMM"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="mm"/>
+                <EditText
+                    android:id="@+id/dateYY"
+                    android:layout_marginRight="70dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="yy"/>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Give Academic Information"
+                android:layout_marginLeft="58sp"
+                android:textColor="#FFB31AB3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:text="Department"
+                android:textSize="15sp"/>
+
+            <Spinner
+                android:id="@+id/spinnerDepartment"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="205dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:text="Level"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_weight="1"
+                    android:text="Term"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Spinner
+                    android:id="@+id/spinnerLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinnerTerm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="207dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="71dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_weight="1"
+                        android:text="Hall"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerHall"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="205dp" />
+
+            <Button
+                android:id="@+id/studentSubmitButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF179917"
+                android:text="Submit"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

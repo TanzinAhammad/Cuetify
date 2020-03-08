@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cuetify4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CrProfile"></activity>
+        <activity android:name=".AllCrs" />
+        <activity android:name=".CrPanel" />
+        <activity android:name=".CrSignIn" />
+        <activity android:name=".FacultySignIn" />
+        <activity android:name=".FacultyProfile" />
+        <activity android:name=".FacultyPanel" />
+        <activity android:name=".AllFaculties" />
+        <activity android:name=".StudentProfile" />
+        <activity android:name=".AllStudents" />
+        <activity android:name=".StudentPanel" />
+        <activity android:name=".StudentSignIn" />
+        <activity android:name=".FacultyRegistration" />
+        <activity android:name=".CrRegistration" />
+        <activity android:name=".StudentRegistration" />
+        <activity android:name=".LoginPanel" />
+        <activity android:name=".Registration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
